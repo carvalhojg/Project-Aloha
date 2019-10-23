@@ -1,0 +1,363 @@
+main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 2%;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.icons img {
+    width: 30%;
+    height: 40px;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.cart-icon {
+    margin-right: 1%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+
+.navigation ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation li {
+    font-family: "Raleway Medium";
+    font-weight: 500;
+    font-size: 14px;
+    color: #e2574c;
+}
+
+.navigation li:nth-child(3) {
+    color: #b64036;
+}
+
+
+/* End of header css  */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/flower-bkgd.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.banner img {
+    margin-top: 10%;
+    width: 35%;
+}
+
+.banner .text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: white;
+}
+
+.banner p {
+    margin-bottom: 4%;
+    font-family: "Raleway Medium";
+    font-weight: 300;
+}
+
+.banner h1 {
+    font-size: 30px;
+    font-family: "Palyfair Dislpay";
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+
+/* End of css for banner section */
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0%;
+    font-size: 32px;
+}
+
+.italic {
+    font-family: "Pairfair Display";
+    font-style: italic;
+}
+
+.bold {
+    font-family: "Pairfair Display";
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+
+/* End of italic and bold words */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.description .title {
+    margin-top: 10%;
+}
+
+.description .paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 5%;
+    font-family: "Raleway Light";
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/* End of descripition css */
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+img {
+    width: 50%;
+}
+
+.images .men {
+    width: 100%;
+}
+
+.images .women {
+    width: 100%;
+}
+
+.shop .text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.shop .text p {
+    font-family: "Raleway Medium";
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.shop .text p:first-child {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.shop .text p:last-child {
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+
+.shop .text p:nth-child(5) {
+    position: absolute;
+    right: 13%;
+    bottom: 35%;
+}
+
+.shop .text p:nth-child(2) {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.shop .text p:nth-child(3) {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+
+.shop .text p:nth-child(4) {
+    position: absolute;
+    left: 10%;
+    bottom: 35%;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.featured .title {
+    margin-bottom: 10%;
+}
+
+.featured .description {
+    width: 100%;
+    height: auto;
+    font-family: "PlayfairDisplay";
+    font-size: 22px;
+    color: #e2574c;
+    margin: 3% 0;
+}
+
+.featured .categories {
+    font-family: "Raleway";
+    font-size: 12px;
+    color: #969696;
+    margin-top: 2%;
+}
+
+.featured .price {
+    font-family: "/Project Aloha/stylesheet.css/Ralway-Light";
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 4%;
+    color: #969696;
+}
+
+
+/* End of featured section */
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/wave-bkgd.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.updates .title {
+    color: white;
+}
+
+.updates .paragraph {
+    display: flex;
+    width: 95%;
+}
+
+.updates p {
+    font-family: "Raleway";
+    font-size: 17px;
+    margin: 2% 0;
+    color: white;
+}
+
+.updates .subscription {
+    margin: 3% 0;
+    display: flex;
+}
+
+.updates input {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.updates input:first-child {
+    border: 3px solid white;
+    width: 230px;
+}
+
+.updates input:last-child {
+    position: relative;
+    content: "Subscribe";
+    color: white;
+    background-color: #b64036;
+    justify-content: center;
+    border: solid #b64036;
+}
+
+
+/* End of updates section */
+
+.about {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    width: 70%;
+}
+
+.information p {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    margin: 10px;
+}
+
+.information p:last-child {
+    color: #969696;
+}
+
+.credits {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.social-media {
+    margin-top: 7%;
+    width: 35%;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
