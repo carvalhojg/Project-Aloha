@@ -38,37 +38,108 @@
         color: #b64036;
     }
     /* End of CSS for navigation and icons */
-    .banner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/flower-bkgd.jpg);
-        background-size: cover;
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .banner img {
-        margin-top: 10%;
-        width: 35%;
-    }
-    .banner .text {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 30%;
-        width: 100%;
-        color: white;
-    }
-    .banner p {
-        margin-bottom: 4%;
-        font-family: "Raleway Medium";
-        font-weight: 300;
-    }
     .banner h1 {
         font-size: 30px;
         font-family: "Palyfair Dislpay";
         font-weight: 500;
         margin-top: 3%;
+    }
+    /* End of CSS for banner section */
+    .description {
+        height: 300px;
+    }
+    .description .paragraph {
+        width: 55%;
+    }
+    /* End of CSS for description section */
+    .shop {
+        left: 2%;
+    }
+    .shop .men {
+        width: 49%;
+    }
+    .shop img {
+        width: 24%;
+    }
+    .shop .women {
+        width: 49%;
+    }
+    .shop .text p:first-child {
+        position: absolute;
+        top: 23%;
+        left: 17%;
+    }
+    .shop .text p:nth-child(2) {
+        position: absolute;
+        top: 23%;
+        left: 53%;
+    }
+    .shop .text p:nth-child(3) {
+        position: absolute;
+        top: 23%;
+        right: 6%;
+    }
+    .shop .text p:nth-child(4) {
+        position: absolute;
+        left: 7%;
+        bottom: 23%;
+    }
+    .shop .text p:nth-child(5) {
+        position: absolute;
+        right: 58%;
+        bottom: 23%;
+    }
+    .shop .text p:last-child {
+        position: absolute;
+        bottom: 23%;
+        left: 65%;
+    }
+    /* End of CSS for shop section */
+    .featured-products {
+        display: flex;
+    }
+    .featured .tablet-product {
+        display: flex;
+        flex-direction: column;
+    }
+    .desktop-product1 {
+        display: none;
+    }
+    .desktop-product2 {
+        display: none;
+    }
+    /* End of CSS for featured section */
+    .about {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .information {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .information p:first-child {
+        width: 41%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social-media {
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        margin: 0;
+    }
+    .social-media ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .social-media .mobile-display {
+        display: flex;
+        display: column;
+        align-items: flex-start;
+        justify-content: space-between;
     }
 }
