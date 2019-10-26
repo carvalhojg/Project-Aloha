@@ -354,7 +354,7 @@ main {
     margin: 10px;
 }
 
-.information p:last-child {
+.information .address {
     color: #969696;
 }
 
