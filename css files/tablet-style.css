@@ -109,6 +109,13 @@
         display: none;
     }
     /* End of CSS for featured section */
+    .updates {
+        background-position-y: bottom;
+    }
+    .updates .paragraph {
+        width: 60%;
+    }
+    /* End of CSS for updates section */
     .about {
         width: 100%;
         display: flex;
