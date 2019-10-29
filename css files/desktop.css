@@ -39,11 +39,17 @@
         width: 40%;
     }
     /* End of CSS for updates section */
+    .information {
+        padding-left: 3%;
+    }
     .information .credits {
         width: 55%;
     }
     .information .address {
         width: 50%;
+    }
+    .social-media {
+        padding-right: 8%;
     }
     /* End of CSS for footer section */
 }
