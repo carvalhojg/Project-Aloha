@@ -35,4 +35,10 @@
         width: 22%;
     }
     /* end of CSS for featured section */
+    .information .credits {
+        width: 55%;
+    }
+    .information .address {
+        width: 50%;
+    }
 }
