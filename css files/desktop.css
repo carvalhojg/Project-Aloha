@@ -34,11 +34,16 @@
     .carousel-cell {
         width: 22%;
     }
-    /* end of CSS for featured section */
+    /* End of CSS for featured section */
+    .updates .subscription {
+        width: 40%;
+    }
+    /* End of CSS for updates section */
     .information .credits {
         width: 55%;
     }
     .information .address {
         width: 50%;
     }
+    /* End of CSS for footer section */
 }
