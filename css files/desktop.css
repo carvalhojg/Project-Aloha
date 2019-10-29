@@ -1,0 +1,38 @@
+@media all and (min-width: 1240px) {
+    .navigation li {
+        font-size: 20px;
+    }
+    .navigation li:nth-child(3) {
+        color: #e2574c;
+    }
+    /* End of CSS for header */
+    .banner .text {
+        width: 30%;
+    }
+    .banner img {
+        width: 20%;
+        height: auto;
+    }
+    .banner h1 {
+        font-size: 80px;
+    }
+    .banner p {
+        font-size: 30px;
+    }
+    /* End of CSS for banner section */
+    .description .paragraph {
+        width: 45%;
+        font-size: 18px;
+    }
+    .description .title {
+        margin: 3%;
+    }
+    .description {
+        margin-top: 4%;
+    }
+    /* End of CSS for description section */
+    .carousel-cell {
+        width: 22%;
+    }
+    /* end of CSS for featured section */
+}

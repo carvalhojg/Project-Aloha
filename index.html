@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, inicial-scale=1">
-    <link rel="stylesheet" href="css files/mobile-style.css">
-    <link rel="stylesheet" href="css files/tablet-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css files/mobile.css">
+    <link rel="stylesheet" href="css files/tablet.css">
+    <link rel="stylesheet" href="css files/desktop.css">
     <link rel="stylesheet" href="css files/reset.css">
-    <link rel="stylesheet" href="css files/stylesheet.css">
+    <link rel="stylesheet" href="css files/fonts.css">
+
     <title>Aloha</title>
 </head>
 
@@ -22,16 +25,24 @@
             <nav class="navigation">
                 <ul>
                     <li>
-                        <p>ABOUT</p>
+                        <a href="#about">
+                            <p>ABOUT</p>
+                        </a>
                     </li>
                     <li>
-                        <p>SHOP</p>
+                        <a href="#shop">
+                            <p>SHOP</p>
+                        </a>
                     </li>
                     <li>
-                        <p>FEATURED</p>
+                        <a href="#featured">
+                            <p>FEATURED</p>
+                        </a>
                     </li>
                     <li>
-                        <p>UPDATES</p>
+                        <a href="#updates">
+                            <p>UPDATES</p>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -41,8 +52,10 @@
             <img src="images/banner-girl.png" alt="banner">
             <div class="text">
                 <p>NEW COLLECTION</p>
-                <h1>Spring/Summer</h1>
-                <h1>2016</h1>
+                <div class="season">
+                    <h1>Spring/Summer</h1>
+                    <h1>2016</h1>
+                </div>
             </div>
         </div>
 
@@ -56,7 +69,7 @@
             </div>
         </div>
 
-        <div class="shop">
+        <div id="shop" class="shop">
             <div class="images">
                 <img class="men" src="images/mens-category.jpg" alt="mens-category">
                 <img class="trends" src="images/trends-category.jpg" alt="trends-category">
@@ -74,40 +87,64 @@
                 <p>WOMEN'S</p>
             </div>
         </div>
-
-        <div class="featured">
+        <div id="featured" class="featured">
             <div class="title">
                 <h1 class="italic">Most-Loved</h1>
-                <h1 class="bold"> Products</h1>
+                <h1 class="bold"> Product</h1>
             </div>
-            <div class="featured-products">
-                <div class="desktop-product1">
-                    <img class="blackDress" src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
-                    <p class="categories">DRESSES</p>
-                    <h1 class="description">Stretch Knit Dress</h1>
-                    <p class="price">$169.00</p>
+            <div class="carousel" data-flickity='{ "groupCells": true }'>
+                <div class="carousel-cell">
+                    <div class="products">
+                        <img class="checkedDress" src="images/checked-stretch-dress.jpg" alt="Checked Stretch Dress">
+                        <p class="categories">DRESSES</p>
+                        <h1 class="description">Checked Stretch Dress</h1>
+                        <p class="price">$129.00</p>
+                    </div>
                 </div>
-                <div class="desktop-product2">
-                    <img class="blueShirt" src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
-                    <p class="categories">SHIRTS</p>
-                    <h1 class="description">Cotton Blue Shirt</h1>
-                    <p class="price">$89.00</p>
+                <div class="carousel-cell">
+                    <div class="products">
+                        <img class="blueBag" src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack">
+                        <p class="categories">BAGS</p>
+                        <h1 class="description">Blue Hipster Backpack</h1>
+                        <p class="price">$69.00</p>
+                    </div>
                 </div>
-                <div class="mobile-product">
-                    <img class="redDress" src="images/checked-stretch-dress.jpg" alt="Checked Stretch Dress">
-                    <p class="categories">DRESSES</p>
-                    <h1 class="description">Checked Stretch Dress</h1>
-                    <p class="price">$129.00</p>
+                <div class="carousel-cell">
+                    <div class="products">
+                        <img class="deminShorts" src="images/demin-overall-shorts.jpg" alt="Demin Overall Shorts">
+                        <p class="categories">DEMIN</p>
+                        <h1 class="description">Demin Overall Shorts</h1>
+                        <p class="price">$89.00</p>
+                    </div>
                 </div>
-                <div class="tablet-product">
-                    <img class="blueBag" src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack">
-                    <p class="categories">BAGS</p>
-                    <h1 class="description">Blue Hipster Backpack</h1>
-                    <p class="price">$69.00</p>
+                <div class="carousel-cell">
+                    <div class="products">
+                        <img class="pinkDress" src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
+                        <p class="categories">DRESSES</p>
+                        <h1 class="description">Pink Dotted Dress</h1>
+                        <p class="price">$99.00</p>
+                    </div>
                 </div>
+                <div class="carousel-cell">
+                    <div class="products">
+                        <img class="blackDress" src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
+                        <p class="categories">DRESSES</p>
+                        <h1 class="description">Strech Knit Dress</h1>
+                        <p class="price">$169.00</p>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="products">
+                        <img class="blueShirt" src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
+                        <p class="categories">SHIRTS</p>
+                        <h1 class="description">Cotton Blue Shirt</h1>
+                        <p class="price">$89.00</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="updates">
+        <div id="updates" class="updates">
             <div class="title">
                 <h1 class="italic">Sign-up for</h1>
                 <h1 class="bold"> Updates</h1>
@@ -116,12 +153,12 @@
                 <p>Stay updated for our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
             </div>
             <form class="subscription" action="">
-                <input type="text" placeholder="Your Email">
-                <input type="submit" value="Subscribe">
+                <input id="email" type="text" placeholder="Your Email">
+                <input id="subscribe" type="submit" value="Subscribe">
             </form>
         </div>
 
-        <footer class="about">
+        <footer id="about" class="about">
             <div class="information">
                 <div class="credits">
                     <p>2016 Alpoha Apparel Co. Powered by HTML and CSS.</p>
@@ -141,16 +178,17 @@
                     <li class="google-plus"><i class="fab fa-google-plus-g"></i></li>
                 </ul>
                 <ul class="mobile-display">
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Instagram</li>
-                    <li>Pinterest</li>
-                    <li>Google +</li>
+                    <li> Facebook</li>
+                    <li> Twitter</li>
+                    <li> Instagram</li>
+                    <li> Pinterest</li>
+                    <li> Google +</li>
                 </ul>
             </div>
         </footer>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     </main>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="main.js"></script>
 </body>
 
